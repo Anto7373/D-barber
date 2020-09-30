@@ -1,0 +1,244 @@
+.auth-logo {
+    width: 175px;
+    height: 100px;
+    max-height: 100% !important;
+    object-fit: contain;
+}
+
+/* COMMON */
+
+.custom-btn-primary {
+    background: #e94a63;
+    border: 1px solid #e94a63;
+}
+
+.custom-btn-primary:hover {
+    background: #e94043;
+    border: 1px solid #e94043;
+}
+
+.custom-btn-primary:active {
+    background: #e94043 !important;
+    border: 1px solid #e94043 !important;
+}
+
+.cutom-text-primary {
+    color: #e94a63 !important;
+}
+
+a.cutom-text-primary:hover {
+    color: #e94043 !important;
+}
+
+.custom-bg-primary {
+    background-color: #e94a63;
+}
+
+.logo-text-color {
+    color: #e94a63 !important;
+    margin-top: 20px !important;
+}
+
+.header-bg-custom {
+    background: linear-gradient(to right, #e94a63, #eb9379);
+}
+
+h3.custom-page-title {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.nav-active-text-primary .nav>li.active>a {
+    color: #e94a63 !important;
+}
+
+.c-padding {
+    padding: 2rem 0;
+}
+
+.c-btn-download {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    background: #fff;
+    border-color: #fff;
+    color: #e94b64;
+}
+
+.c-toggle-btn {
+    margin-top: 35px;
+}
+
+.c-toggle-btn .toggle-title {
+    padding-right: 20px;
+}
+
+.c-toggle-btn .indigo {
+    background-color: #e9636c;
+    color: #fff;
+}
+
+.form-control:not(.is-valid):not(.is-invalid):focus {
+    border-color: #ea7f74;
+}
+
+.form-control:focus {
+    color: inherit;
+    box-shadow: 0 0 0 0.2rem rgb(232 76 100 / .25);
+}
+
+.custom-file-input:focus~.custom-file-label {
+    border-color: #c4daff;
+    box-shadow: 0 0 0 0.2rem rgb(232 76 100 / .25);
+}
+
+.c-pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.pagination .active .page-link,
+.pagination .active a {
+    color: #fff !important;
+    background-color: #e84c64 !important;
+    border-color: #e84c64 !important;
+}
+
+.page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(232 76 100 / .25);
+}
+
+.action-icon-trash {
+    background-color: #e94a63;
+}
+
+/* BRANCH PAGE */
+.status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 15px;
+}
+
+.status-badge.inactive-badge {
+    color: #f21378;
+    background-color: #fde1ee;
+}
+
+.status-badge.active-badge {
+    color: #27a05a;
+    background-color: #def6e8;
+}
+.status-badge.waiting-badge {
+    color: #fff;
+    background-color: #f4c414;
+}
+.status-badge.confirm-badge {
+    color: #fff;
+    background-color: #27a05a;
+}
+
+.service-for-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 15px;
+}
+
+.service-for-tag.man-tag {
+    color: #3e455a;
+    background-color: #e3e5e9;
+}
+
+.service-for-tag.woman-tag {
+    color: #cba20a;
+    background-color: #fdf6d9;
+}
+
+.service-for-tag.unisex-tag {
+    color: #1094b5;
+    background-color: #d9f4fb;
+}
+
+.service-for-tag.services-list-tag {
+    color: #116bff;
+    background-color: #e1ecff;
+}
+
+.table-filter-sec {
+    margin-bottom: 30px;
+}
+
+.table-search-title {
+    width: 50px;
+    display: inline-block;
+}
+
+.table-search-sec {
+    display: inline-block;
+    width: calc(100% - 60px);
+    margin-left: 5px;
+}
+
+/* BRANCH DETAIL */
+
+.branch-detail-card {
+    background: #fff;
+    border-width: 0;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    margin-bottom: 1.5rem;
+    min-height: 100px;
+    max-height: 300px;
+    display: flex;
+}
+
+.branch-img-sec {
+    width: 375px;
+    flex: 0 0 375px;
+    max-height: 275px;
+}
+
+img.branch-img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+
+.branch-detail-contentsec {
+    padding: 20px;
+}
+
+.c-branch-tab .nav-item {
+    position: relative;
+    border: inherit;
+    /* width: calc(25% - 25px); */
+    flex: 1 1 auto;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.c-branch-tab .nav-item:last-child {
+    margin-right: 0;
+    /* width: 25%; */
+}
+
+.c-branch-tab .nav-item .nav-link {
+    transition: all .15s ease;
+    color: #e94a63;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.c-branch-tab .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #e94a63;
+}
