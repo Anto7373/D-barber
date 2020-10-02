@@ -60,7 +60,7 @@ h3.custom-page-title {
 }
 
 .c-padding {
-    padding: 2rem 0;
+    padding: 2rem 24px;
 }
 
 .c-btn-download {
@@ -263,12 +263,11 @@ img.branch-img {
     padding: 10px 6px;
 }
 .agf{
-padding: 10px;
+padding: 6px;
 }
 .border-line{
     border-top: 1px solid #9E9E9E;
-    width: 100%;
-    margin-left: 0px;
+    
 }
 .card-body{
 padding: 10px;
