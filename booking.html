@@ -149,15 +149,15 @@
                 <div class="page-hero page-container" id="page-hero">
                     <div class="c-padding d-flex">
                         <div class="page-title">
-                            <h2 class="text-md text-highlight">Branch</h2>
+                            <h2 class="text-md text-highlight">Booking</h2>
                             <!-- <small class="text-muted">Welcome aboard,
                                 <strong>Jacqueline Reid</strong></small> -->
                         </div>
                         <div class="flex"></div>
                         <div>
-                            <a href="add-branch.html">
+                            <a href="#">
                                 <button class="btn w-sm mb-1 btn-sm btn-rounded btn-primary custom-btn-primary">Add
-                                    branch</button>
+                                    booking</button>
                             </a>
                         </div>
                     </div>
@@ -189,11 +189,11 @@
                                 <thead style="background: #fff;">
                                     <tr>
                                         <th>#</th>
-                                        <th>Name</th>
-                                        <th>Address</th>
-                                        <th>Service for</th>
-                                        <th>Mobile No</th>
-                                        <th>Image</th>
+                                        <th>User</th>
+                                        <th>Branch</th>
+                                        <th>Booking Time</th>
+                                        <th>Amount</th>
+                                        <th>Payment</th>
                                         <th>Status</th>
                                         <th>Action</th>
                                     </tr>
@@ -204,36 +204,43 @@
                                             <small class="text-muted">1</small>
                                         </td>
                                         <td class="flex">
-                                            <a class="item-title text-color">Tony & Guy</a>
+                                            <a class="item-title text-color">Barath</a>
                                         </td>
                                         <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
+                                            <div class="item-except text-muted text-sm h-1x">Fly Massage</div>
                                         </td>
-                                        <td class="text-color">
+                                        <!-- <td class="text-color">
                                             <span class="service-for-tag man-tag">Man</span>
+                                        </td> -->
+                                        <td class="text-color">
+                                            29 sep 2020, 6:00 AM - 7:00 PM
                                         </td>
                                         <td class="text-color">
-                                            7373654746
+                                            Rs. <span>45</span>
                                         </td>
-                                        <td>
+                                        <td class="text-color">
+                                            <span class="status-badge active-badge">Paid</span>
+                                        </td>
+                                        <!-- <td>
                                             <a href="#"><span class="w-32 avatar gd-success"><img
                                                         src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
+                                        </td> -->
                                         <td class="text-color">
-                                            <span class="status-badge inactive-badge">Inactive</span>
+                                            <span class="status-badge badge-secondary">Complete</span>
                                         </td>
                                         <td>
                                             <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
                                                     class="text-muted"><i data-feather="more-vertical"></i></a>
                                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
+                                                    <a href="#" class="dropdown-item view" href="#">View</a>
                                                     <a href="#" class="dropdown-item approve">Approve</a>
                                                     <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
+                                                    <a href="#" class="dropdown-item edit">Complete</a>
+                                                    <a href="#" class="dropdown-item edit">Cancel</a>
+                                                    <a href="#" class="dropdown-item edit">Collect Payment</a>
+                                                    <!-- <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
+                                                        data-target="#modal-sm">Delete</a> -->
                                                 </div>
                                             </div>
                                         </td>
@@ -243,36 +250,43 @@
                                             <small class="text-muted">2</small>
                                         </td>
                                         <td class="flex">
-                                            <a class="item-title text-color">Naturals</a>
+                                            <a class="item-title text-color">Praveen</a>
                                         </td>
                                         <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
+                                            <div class="item-except text-muted text-sm h-1x">hydra Spa</div>
+                                        </td>
+                                        <!-- <td class="text-color">
+                                            <span class="service-for-tag man-tag">Man</span>
+                                        </td> -->
+                                        <td class="text-color">
+                                            29 sep 2020, 6:00 AM - 7:00 PM
                                         </td>
                                         <td class="text-color">
-                                            <span class="service-for-tag woman-tag">Woman</span>
+                                            Rs. <span>90</span>
                                         </td>
                                         <td class="text-color">
-                                            9790483410
+                                            <span class="status-badge active-badge">paid</span>
                                         </td>
-                                        <td>
+                                        <!-- <td>
                                             <a href="#"><span class="w-32 avatar gd-success"><img
                                                         src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
+                                        </td> -->
                                         <td class="text-color">
-                                            <span class="status-badge active-badge">Active</span>
+                                            <span class="status-badge waiting-badge">Waiting</span>
                                         </td>
                                         <td>
                                             <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
                                                     class="text-muted"><i data-feather="more-vertical"></i></a>
                                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
+                                                    <a href="#" class="dropdown-item view" href="#">View</a>
                                                     <a href="#" class="dropdown-item approve">Approve</a>
                                                     <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
+                                                    <a href="#" class="dropdown-item edit">Complete</a>
+                                                    <a href="#" class="dropdown-item edit">Cancel</a>
+                                                    <a href="#" class="dropdown-item edit">Collect Payment</a>
+                                                    <!-- <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
+                                                        data-target="#modal-sm">Delete</a> -->
                                                 </div>
                                             </div>
                                         </td>
@@ -282,36 +296,43 @@
                                             <small class="text-muted">3</small>
                                         </td>
                                         <td class="flex">
-                                            <a class="item-title text-color">Create salon</a>
+                                            <a class="item-title text-color">Ram</a>
                                         </td>
                                         <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
+                                            <div class="item-except text-muted text-sm h-1x">Masha Salon</div>
+                                        </td>
+                                        <!-- <td class="text-color">
+                                            <span class="service-for-tag man-tag">Man</span>
+                                        </td> -->
+                                        <td class="text-color">
+                                            31 sep 2020, 4:00 AM - 7:00 PM
                                         </td>
                                         <td class="text-color">
-                                            <span class="service-for-tag unisex-tag">Man & Woman</span>
+                                            Rs. <span>60</span>
                                         </td>
                                         <td class="text-color">
-                                            9790463823
+                                            <span class="status-badge inactive-badge">UnPaid</span>
                                         </td>
-                                        <td>
+                                        <!-- <td>
                                             <a href="#"><span class="w-32 avatar gd-success"><img
                                                         src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
+                                        </td> -->
                                         <td class="text-color">
-                                            <span class="status-badge active-badge">Active</span>
+                                            <span class="status-badge confirm-badge">Confirm</span>
                                         </td>
                                         <td>
                                             <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
                                                     class="text-muted"><i data-feather="more-vertical"></i></a>
                                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
+                                                    <a href="#" class="dropdown-item view" href="#">View</a>
                                                     <a href="#" class="dropdown-item approve">Approve</a>
                                                     <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
+                                                    <a href="#" class="dropdown-item edit">Complete</a>
+                                                    <a href="#" class="dropdown-item edit">Cancel</a>
+                                                    <a href="#" class="dropdown-item edit">Collect Payment</a>
+                                                    <!-- <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
+                                                        data-target="#modal-sm">Delete</a> -->
                                                 </div>
                                             </div>
                                         </td>
@@ -321,36 +342,43 @@
                                             <small class="text-muted">4</small>
                                         </td>
                                         <td class="flex">
-                                            <a class="item-title text-color">Addictive Beauty</a>
+                                            <a class="item-title text-color">Shiva</a>
                                         </td>
                                         <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
+                                            <div class="item-except text-muted text-sm h-1x">Masha Spa</div>
                                         </td>
-                                        <td class="text-color">
+                                        <!-- <td class="text-color">
                                             <span class="service-for-tag man-tag">Man</span>
+                                        </td> -->
+                                        <td class="text-color">
+                                            31 sep 2020, 4:00 AM - 7:00 PM
                                         </td>
                                         <td class="text-color">
-                                            8945364756
+                                            Rs. <span>40</span>
                                         </td>
-                                        <td>
+                                        <td class="text-color">
+                                            <span class="status-badge inactive-badge">UnPaid</span>
+                                        </td>
+                                        <!-- <td>
                                             <a href="#"><span class="w-32 avatar gd-success"><img
                                                         src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
+                                        </td> -->
                                         <td class="text-color">
-                                            <span class="status-badge inactive-badge">Inactive</span>
+                                            <span class="status-badge badge-danger">Cancel</span>
                                         </td>
                                         <td>
                                             <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
                                                     class="text-muted"><i data-feather="more-vertical"></i></a>
                                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
+                                                    <a href="#" class="dropdown-item view" href="#">View</a>
                                                     <a href="#" class="dropdown-item approve">Approve</a>
                                                     <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
+                                                    <a href="#" class="dropdown-item edit">Complete</a>
+                                                    <a href="#" class="dropdown-item edit">Cancel</a>
+                                                    <a href="#" class="dropdown-item edit">Collect Payment</a>
+                                                    <!-- <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
+                                                        data-target="#modal-sm">Delete</a> -->
                                                 </div>
                                             </div>
                                         </td>
@@ -360,153 +388,43 @@
                                             <small class="text-muted">5</small>
                                         </td>
                                         <td class="flex">
-                                            <a class="item-title text-color">Barbarella Salon</a>
+                                            <a class="item-title text-color">Xavier</a>
                                         </td>
                                         <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
+                                            <div class="item-except text-muted text-sm h-1x">Ipra Spa</div>
                                         </td>
-                                        <td class="text-color">
+                                        <!-- <td class="text-color">
                                             <span class="service-for-tag man-tag">Man</span>
+                                        </td> -->
+                                        <td class="text-color">
+                                            31 sep 2020, 4:00 AM - 7:00 PM
                                         </td>
                                         <td class="text-color">
-                                            9845865734
+                                            Rs. <span>70</span>
                                         </td>
-                                        <td>
+                                        <td class="text-color">
+                                            <span class="status-badge active-badge">Paid</span>
+                                        </td>
+                                        <!-- <td>
                                             <a href="#"><span class="w-32 avatar gd-success"><img
                                                         src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
+                                        </td> -->
                                         <td class="text-color">
-                                            <span class="status-badge inactive-badge">Inactive</span>
+                                            <span class="status-badge confirm-badge">Confirm</span>
                                         </td>
                                         <td>
                                             <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
                                                     class="text-muted"><i data-feather="more-vertical"></i></a>
                                                 <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
+                                                    <a href="#" class="dropdown-item view" href="#">View</a>
                                                     <a href="#" class="dropdown-item approve">Approve</a>
                                                     <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
+                                                    <a href="#" class="dropdown-item edit">Complete</a>
+                                                    <a href="#" class="dropdown-item edit">Cancel</a>
+                                                    <a href="#" class="dropdown-item edit">Collect Payment</a>
+                                                    <!-- <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="">
-                                        <td style="min-width:30px;text-align:center">
-                                            <small class="text-muted">6</small>
-                                        </td>
-                                        <td class="flex">
-                                            <a class="item-title text-color">The Makeover Place</a>
-                                        </td>
-                                        <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
-                                        </td>
-                                        <td class="text-color">
-                                            <span class="service-for-tag man-tag">Man</span>
-                                        </td>
-                                        <td class="text-color">
-                                            9146355786
-                                        </td>
-                                        <td>
-                                            <a href="#"><span class="w-32 avatar gd-success"><img
-                                                        src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
-                                        <td class="text-color">
-                                            <span class="status-badge inactive-badge">Inactive</span>
-                                        </td>
-                                        <td>
-                                            <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
-                                                    class="text-muted"><i data-feather="more-vertical"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
-                                                    <a href="#" class="dropdown-item approve">Approve</a>
-                                                    <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="">
-                                        <td style="min-width:30px;text-align:center">
-                                            <small class="text-muted">7</small>
-                                        </td>
-                                        <td class="flex">
-                                            <a class="item-title text-color">Giovanna Spa</a>
-                                        </td>
-                                        <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
-                                        </td>
-                                        <td class="text-color">
-                                            <span class="service-for-tag woman-tag">Woman</span>
-                                        </td>
-                                        <td class="text-color">
-                                            8567984536
-                                        </td>
-                                        <td>
-                                            <a href="#"><span class="w-32 avatar gd-success"><img
-                                                        src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
-                                        <td class="text-color">
-                                            <span class="status-badge active-badge">Active</span>
-                                        </td>
-                                        <td>
-                                            <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
-                                                    class="text-muted"><i data-feather="more-vertical"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
-                                                    <a href="#" class="dropdown-item approve">Approve</a>
-                                                    <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="">
-                                        <td style="min-width:30px;text-align:center">
-                                            <small class="text-muted">8</small>
-                                        </td>
-                                        <td class="flex">
-                                            <a class="item-title text-color">Windy Branch22</a>
-                                        </td>
-                                        <td class="flex">
-                                            <div class="item-except text-muted text-sm h-1x">Nungambakkam, chennai</div>
-                                        </td>
-                                        <td class="text-color">
-                                            <span class="service-for-tag unisex-tag">Man & Woman</span>
-                                        </td>
-                                        <td class="text-color">
-                                            9857347847
-                                        </td>
-                                        <td>
-                                            <a href="#"><span class="w-32 avatar gd-success"><img
-                                                        src="./assets/img/a8.jpg" alt="."></span></a>
-                                        </td>
-                                        <td class="text-color">
-                                            <span class="status-badge active-badge">Active</span>
-                                        </td>
-                                        <td>
-                                            <div class="item-action dropdown"><a href="#" data-toggle="dropdown"
-                                                    class="text-muted"><i data-feather="more-vertical"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right bg-black" role="menu">
-                                                    <a href="branch-detail.html" class="dropdown-item" href="#">See
-                                                        detail</a>
-                                                    <a href="update-branch.html" class="dropdown-item edit">Edit</a>
-                                                    <a href="#" class="dropdown-item approve">Approve</a>
-                                                    <a href="#" class="dropdown-item reject">Reject</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item trash" data-toggle="modal"
-                                                        data-target="#modal-sm">Delete</a>
+                                                        data-target="#modal-sm">Delete</a> -->
                                                 </div>
                                             </div>
                                         </td>
