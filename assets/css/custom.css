@@ -155,6 +155,9 @@ h3.custom-page-title {
     color: #fff;
     background-color: #27a05a;
 }
+.action-icon-shield{
+    background-color: #4CAF50;
+}
 
 .service-for-tag {
     display: inline-block;

@@ -150,13 +150,13 @@
                 <div class="page-hero page-container" id="page-hero">
                     <div class="c-padding d-flex">
                         <div class="page-title">
-                            <h2 class="text-md text-highlight">New Category</h2>
+                            <h2 class="text-md text-highlight">Edit User</h2>
                             <!-- <small class="text-muted">Welcome aboard,
                                 <strong>Jacqueline Reid</strong></small> -->
                         </div>
                         <div class="flex"></div>
                         <div>
-                            <a href="category.html">
+                            <a href="user.html">
                                 <button class="btn w-sm mb-1 btn-sm btn-rounded btn-primary custom-btn-primary">Back to
                                     list</button>
                             </a>
@@ -168,63 +168,42 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="card">
-                                    <div class="card-header"><strong>Create a new Category</strong></div>
+                                    <div class="card-header"><strong>Update existing User</strong></div>
                                     <div class="card-body">
                                         <form>
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label class="text-muted" for="">Name</label>
+                                                        <label class="inputName" for="">Name</label>
                                                         <input type="text" class="form-control" id=""
                                                             aria-describedby="emailHelp"
                                                             placeholder="Please enter name">
                                                     </div>
-                                                </div>
-                                                <!-- <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label class="text-muted" for="">Last Name</label>
-                                                        <input type="text" class="form-control" id=""
-                                                            aria-describedby="emailHelp"
-                                                            placeholder="Enter Last Name">
-                                                    </div>
-                                                </div> -->
-                                            </div>
-                                            <!-- <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <label class="text-muted" for="">Description</label>
-                                                        <textarea id="event-desc" class="form-control"
-                                                            rows="6"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                            <div class="row">      
-                                                <div class="col-md-6">
-                                                    <div class="form-group row">
-                                                        <label class="col-sm-12 text-muted">Image:</label>
-                                                        <div class="col-sm-12">
-                                                            <div class="custom-file">
-                                                                <input type="file" class="custom-file-input"
-                                                                    id="customFile">
-                                                                <label class="custom-file-label" for="customFile">Choose
-                                                                    file</label>
-                                                            </div>
-                                                        </div>
+                                                        <label for="inputEmail">Email</label>
+                                                        <input type="Email" class="form-control" id="inputmail" placeholder="sample@gmail.com">
+
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <div class="c-toggle-btn">
-                                                        <span class="toggle-title text-muted">Status:</span>
-                                                        <label class="md-switch">
-                                                            <input type="checkbox">
-                                                            <i class="indigo"></i>
-                                                        </label>
+                                                    <div class="form-group">
+                                                        <label class="inputRole">Role</label>
+                                                        <select class="js-example-basic-multiple select2"
+                                                            multiple="multiple" name="role" style="width: 100%">
+                                                            <option value="">Admin</option>
+                                                            <option value="">Advertiser</option>
+                                                            <option value="">Member</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label for="inputCity">Password</label>
+                                                            <input type="text" class="form-control" id="inputCity">
                                                     </div>
                                                 </div>
-                                            </div>    
+                                                
                                                 <div class="col-md-12 text-right">
                                                     <button type="button"
-                                                        class="btn btn-rounded custom-btn-primary mt-5 text-white">Submit</button>
+                                                        class="btn btn-rounded custom-btn-primary mt-5 text-white">Update User</button>
                                                 </div>
                                             </div>
 
