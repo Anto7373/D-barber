@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>settings</title>
+    <meta name="description" content="Responsive, Bootstrap, BS4">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><!-- style -->
+    <link rel="stylesheet" href="./assets/css/site.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+$("input[type='radio']").change(function(){
+if($(this).val()=="online_method")
+{
+$("#otherAnswers").show();
+}
+else
+{
+$("#otherAnswers").hide(); 
+}
+});
+
+});
+</script>
+</head>
+
+<body class="layout-row">
+    <!-- Aside START-->
+    <div id="aside" class="page-sidenav no-shrink bg-light nav-dropdown fade" aria-hidden="true">
+        <div class="sidenav h-100 modal-dialog bg-light">
+            <!-- sidenav top -->
+            <div class="navbar">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./assets/img/custom/logo.png" alt="...">
+                    <span class="hidden-folded d-inline l-s-n-1x logo-text-color">D - Barber</span>
+                </a>
+            </div><!-- Flex nav content -->
+            <div class="flex scrollable hover">
+                <div class="nav-active-text-primary" data-nav>
+                    <ul class="nav">
+                        <li class="nav-header hidden-folded"><span class="text-muted">Navigation</span></li>
+                        <li>
+                            <a href="dashboard.html" class=""><span class="nav-icon"><i data-feather="home"></i></span>
+                                <span class="nav-text">Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="role.html" class=""><span class="nav-icon"><i data-feather="grid"></i></span>
+                                <span class="nav-text">Role</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="user.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">User</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html" class=""><span class="nav-icon"><i data-feather="calendar"></i></span>
+                                <span class="nav-text">Category</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sub-category.html" class=""><span class="nav-icon"><i data-feather="calendar"></i></span>
+                                <span class="nav-text">Sub Category</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="branch.html" class=""><span class="nav-icon"><i
+                                        data-feather="message-circle"></i></span>
+                                <span class="nav-text">Branch</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="employee.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">Employee</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="offer.html" class=""><span class="nav-icon"><i data-feather="box"></i></span>
+                                <span class="nav-text">Offers</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="customer.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">Customer</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="booking.html" class=""><span class="nav-icon"><i data-feather="mail"></i></span>
+                                <span class="nav-text">Booking</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="report.html" class=""><span class="nav-icon"><i data-feather="file"></i></span>
+                                <span class="nav-text">Report</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="notification.html" class=""><span class="nav-icon"><i data-feather="mail"></i></span>
+                                <span class="nav-text">Notification</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="settings.html" class=""><span class="nav-icon"><i data-feather="disc"></i></span>
+                                <span class="nav-text">Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" class=""><span class="nav-icon"><i data-feather="lock"></i></span>
+                                <span class="nav-text">Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aside END-->
+    <div id="main" class="layout-column flex">
+        <!-- Header START-->
+        <!-- MOBILE MENU STARTS HERE -->
+        <div id="header" class="page-header header-bg-custom">
+            <div class="navbar navbar-expand-lg">
+                <!-- brand -->
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <img src="./assets/img/custom/logo.png" alt="...">
+                    <span class="hidden-folded d-inline l-s-n-1x d-lg-none logo-text-color">D - Barber</span>
+                </a>
+                <!-- / brand -->
+                <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarToggler">
+                    <h3 class="custom-page-title">D-BARBER</h3>
+                </div>
+                <ul class="nav navbar-menu order-1 order-lg-2">
+                    <li class="nav-item dropdown">
+                        <a href="#" data-toggle="dropdown" class="nav-link d-flex align-items-center px-2 text-color">
+                            <span class="mx-2 d-none l-h-1x d-lg-block text-right text-white">
+                                <small class="text-fade d-block mb-1 text-white">Hello, Welcome</small>
+                                Admin admin</span>
+                            <span class="avatar w-24" style="margin: -2px"><img src="./assets/img/a0.jpg"
+                                    alt="..."></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right w mt-3 animate fadeIn">
+                            <a class="dropdown-item" href="page.profile.html"><span>Profile</span> </a>
+                            <a class="dropdown-item" href="signin.1.html">Sign out</a>
+                        </div>
+                    </li>
+                    <!-- Navarbar toggle btn -->
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link px-1" data-toggle="modal" data-target="#aside">
+                            <i data-feather="menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- MOBILE MENU ENDS HERE -->
+        <!-- Footer END-->
+        <!-- Content START-->
+        <div id="content" class="flex">
+            <!-- Main START-->
+            <div>
+                <div class="page-hero page-container" id="page-hero">
+                    <div class="c-padding d-flex">
+                        <div class="page-title">
+                            <h2 class="text-md text-highlight">Settings</h2>
+                        </div>
+                        <div class="flex"></div>
+                    </div>
+                </div>
+                <div class="page-content page-container" id="page-content">
+                    <div class="c-padding">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="mb-3">
+                                    <ul class="nav nav-pills c-branch-tab" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#contact_us"
+                                                role="tab" aria-controls="home" aria-selected="true">Contact Us
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#payment"
+                                                role="tab" aria-controls="profile" aria-selected="false">Payment Gateway</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#admin"
+                                                role="tab" aria-controls="contact" aria-selected="false">Admin Commission</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content mb-4">
+                                    <div class="tab-pane fade show active" id="contact_us" role="tabpanel"
+                                        aria-labelledby="home-tab">
+                                        <div class="tab-content-section mt-5">
+                                            <div class="row table-filter-sec">
+                                                
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="text-muted" for="">Phone No</label>
+                                                        <input type="text" class="form-control" id=""
+                                                            aria-describedby="emailHelp"
+                                                            placeholder="+91">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="inputAddress">Email</label>
+                                                        <input type="text" class="form-control" id="inputAddress" placeholder="sample@gmail.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="text-muted" for="">Address</label>
+                                                        <textarea id="event-desc" class="form-control"
+                                                            rows="6"></textarea>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-md-12 text-right">
+                                                    <button type="button"
+                                                        class="btn btn-rounded custom-btn-primary mt-5 text-white">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- PAYMENT METHOD -->
+                                    <div class="tab-pane fade" id="payment" role="tabpanel"
+                                        aria-labelledby="profile-tab">
+                                        <div class="tab-content-section mt-5">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <label class="radio">
+                                                           
+                                                        <input type="radio" name="cash"checked="checked" value="cash_method"/>
+                                                        <span></span>
+                                                </label>
+                                                    <span class="headers"> Cash on Method</span></label> <br>
+                                                    <label>
+                                                </div> 
+                                                <div class="col-md-4">
+                                                        <label class="md-switch">
+                                                            <input type="checkbox">
+                                                            <i class="indigo"></i>
+                                                        </label>
+                                                </div> 
+                                                <div class="col-md-8">
+                                                    <label class="radio">
+                                                        
+                                                            <input type="radio" name="cash" value="card_method"/>
+                                                            <span></span>
+                                                    </label>    
+                                                    <span class="headers"> Card Payment</span></label> <br>
+                                                    <label>
+                                                </div>
+                                                <div class="col-md-4">
+                                                        <label class="md-switch">
+                                                            <input type="checkbox">
+                                                            <i class="indigo"></i>
+                                                        </label>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <label class="radio">
+                                                        
+                                                            <input type="radio" name="cash"value="online_method"/>
+                                                            <span></span>
+                                                    </label>        
+                                                    <span class="headers"> Online Bank Transfer</span></label> <br>
+                                                    <label>
+                                                </div>
+                                                <div class="col-md-4">
+                                                        <label class="md-switch">
+                                                            <input type="checkbox">
+                                                            <i class="indigo"></i>
+                                                        </label>
+                                                </div>      
+                                            </div>
+                                        </div>
+                                        <form>
+                                            <div class="row" id="otherAnswers" style="display:none;">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="text-name" for="">Bank Name</label>
+                                                        <input  type="text" class="form-control" name="otherAnswer" id="inputName"/>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="inputAddress2">Account NO</label>
+                                                        <input  type="text" class="form-control" name="otherAnswer" id=""/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="inputAddress">IFSC</label>
+                                                        <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label for="inputCity">Branch</label>
+                                                            <input type="text" class="form-control" id="inputCity">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-right">
+                                                    <button type="button"
+                                                        class="btn btn-rounded custom-btn-primary mt-5 text-white">Submit</button>
+                                                </div>
+                                            </div>    
+                                        </form>    
+
+                                    </div>
+
+                                    <div class="tab-pane fade" id="admin" role="tabpanel"
+                                        aria-labelledby="contact-tab">
+                                        <div class="tab-content-section mt-5">
+
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                       <div class="form-group">
+                                                        <select class="js-example-basic-multiple select2"
+                                                            multiple="multiple" name="state" placeholder="--Select Branch--" style="width: 100%">
+                                                            <option value="">Spa</option>
+                                                            <option value="">Salon</option>
+                                                            <option value="">Massage</option>
+                                                            <option value="">Barber</option>
+                                                        </select>
+                                                    </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-group">
+                                                            
+                                                            <input type="text" class="form-control" id=""
+                                                                aria-describedby="emailHelp"
+                                                                placeholder="Enter the Percentage">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <button
+                                                                    class="btn btn-raised btn-wave btn-icon btn-rounded mb-2 action-icon-plus-circle text-white">
+                                                                    <i data-feather="plus"></i>
+                                                        </button> 
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main END-->
+        </div>
+        <!-- Content END-->
+        <!-- Footer START-->
+        <!-- <div id="footer" class="page-footer hide">
+            <div class="d-flex p-3"><span class="text-sm text-muted flex">&copy; Copyright. flatfull.com</span>
+                <div class="text-sm text-muted">Version 1.1.2</div>
+            </div>
+        </div> -->
+        <!-- Footer END-->
+    </div>
+    <div id="modal-sm" class="modal fade" data-backdrop="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                    <div class="modal-title text-md">Confirmation</div><button class="close"
+                        data-dismiss="modal">&times;</button>
+                </div> -->
+                <div class="modal-body">
+                    <div class="p-4 c-pb-0 text-center">
+                        <p class="mb-0">Are you sure you want to delete this branch?</p>
+                    </div>
+                </div>
+                <div class="modal-footer"><button type="button" class="btn btn-light" data-dismiss="modal">No</button>
+                    <button type="button" class="btn custom-btn-primary text-white" data-dismiss="modal">Yes</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div>
+    </div>
+    <!-- SCRIPT STARTS HERE -->
+   
+    <script src="./assets/js/site.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2();
+        });
+
+        // ALLOW NUMBERS ONLY
+        function onlyNumberKey(evt) {
+
+            // Only ASCII charactar in that range allowed 
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+                return false;
+            return true;
+        }
+    </script>
+</body>
+
+</html>

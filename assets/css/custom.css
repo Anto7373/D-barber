@@ -275,3 +275,58 @@ padding: 6px;
 .card-body{
 padding: 10px;
 }
+.badge-success {
+        color: #1aae6f;
+    background-color: rgba(147, 231, 195, .5);
+}
+.text-pad{
+    padding: 15px 63px !important;
+}
+.badge {
+border-radius: .375rem;
+    }
+ .txt-algn{
+vertical-align: top!important;
+ }   
+ .action-icon-plus-circle{
+    background-color: #ea6c6d;
+ }
+ .radio{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    
+ }
+ .radio input[type="radio"]{
+    display: none;
+ }
+ .radio span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border:3px solid #e95767;
+    display: block;
+    cursor: pointer;
+
+
+ }
+ .radio span:after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ea5e69;
+    display: block;
+    transform: translate(-50%,-50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s;
+    position: relative;
+    left: 7px;
+    top: 7px;
+
+ }
+ .radio input[type="radio"]:checked ~ span:after{
+    transform: translate(-50%,-50%) scale(1);
+ }

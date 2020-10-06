@@ -1,0 +1,319 @@
+u<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <meta name="description" content="Responsive, Bootstrap, BS4">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><!-- style -->
+    <link rel="stylesheet" href="./assets/css/site.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body class="layout-row">
+    <!-- Aside START-->
+    <div id="aside" class="page-sidenav no-shrink bg-light nav-dropdown fade" aria-hidden="true">
+        <div class="sidenav h-100 modal-dialog bg-light">
+            <!-- sidenav top -->
+            <div class="navbar">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./assets/img/custom/logo.png" alt="...">
+                    <span class="hidden-folded d-inline l-s-n-1x logo-text-color">D - Barber</span>
+                </a>
+            </div><!-- Flex nav content -->
+            <div class="flex scrollable hover">
+                <div class="nav-active-text-primary" data-nav>
+                    <ul class="nav">
+                        <li class="nav-header hidden-folded"><span class="text-muted">Navigation</span></li>
+                        <li>
+                            <a href="dashboard.html" class=""><span class="nav-icon"><i data-feather="home"></i></span>
+                                <span class="nav-text">Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="role.html" class=""><span class="nav-icon"><i data-feather="grid"></i></span>
+                                <span class="nav-text">Role</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="user.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">User</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html" class=""><span class="nav-icon"><i data-feather="calendar"></i></span>
+                                <span class="nav-text">Category</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sub-category.html" class=""><span class="nav-icon"><i data-feather="calendar"></i></span>
+                                <span class="nav-text">Sub Category</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="branch.html" class=""><span class="nav-icon"><i
+                                        data-feather="message-circle"></i></span>
+                                <span class="nav-text">Branch</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="employee.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">Employee</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="offer.html" class=""><span class="nav-icon"><i data-feather="box"></i></span>
+                                <span class="nav-text">Offers</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="customer.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">Customer</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="booking.html" class=""><span class="nav-icon"><i data-feather="mail"></i></span>
+                                <span class="nav-text">Booking</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="report.html" class=""><span class="nav-icon"><i data-feather="file"></i></span>
+                                <span class="nav-text">Report</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="notification.html" class=""><span class="nav-icon"><i data-feather="mail"></i></span>
+                                <span class="nav-text">Notification</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="settings.html" class=""><span class="nav-icon"><i data-feather="disc"></i></span>
+                                <span class="nav-text">Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" class=""><span class="nav-icon"><i data-feather="lock"></i></span>
+                                <span class="nav-text">Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aside END-->
+    <div id="main" class="layout-column flex">
+        <!-- Header START-->
+        <!-- MOBILE MENU STARTS HERE -->
+        <div id="header" class="page-header header-bg-custom">
+            <div class="navbar navbar-expand-lg">
+                <!-- brand -->
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <img src="./assets/img/custom/logo.png" alt="...">
+                    <span class="hidden-folded d-inline l-s-n-1x d-lg-none logo-text-color">D - Barber</span>
+                </a>
+                <!-- / brand -->
+                <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarToggler">
+                    <h3 class="custom-page-title">D-BARBER</h3>
+                </div>
+                <ul class="nav navbar-menu order-1 order-lg-2">
+                    <li class="nav-item dropdown">
+                        <a href="#" data-toggle="dropdown" class="nav-link d-flex align-items-center px-2 text-color">
+                            <span class="mx-2 d-none l-h-1x d-lg-block text-right text-white">
+                                <small class="text-fade d-block mb-1 text-white">Hello, Welcome</small>
+                                Admin admin</span>
+                            <span class="avatar w-24" style="margin: -2px"><img src="./assets/img/a0.jpg"
+                                    alt="..."></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right w mt-3 animate fadeIn">
+                            <a class="dropdown-item" href="page.profile.html"><span>Profile</span> </a>
+                            <a class="dropdown-item" href="signin.1.html">Sign out</a>
+                        </div>
+                    </li>
+                    <!-- Navarbar toggle btn -->
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link px-1" data-toggle="modal" data-target="#aside">
+                            <i data-feather="menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- MOBILE MENU ENDS HERE -->
+        <!-- Footer END-->
+        <!-- Content START-->
+        <div id="content" class="flex">
+            <!-- Main START-->
+            <div class="container">
+                <div class="page-hero page-container" id="page-hero">
+                    <div class="c-padding d-flex">
+                        <div class="page-title">
+                            <h2 class="text-md text-highlight">Edit Role</h2>
+                            <!-- <small class="text-muted">Welcome aboard,
+                                <strong>Jacqueline Reid</strong></small> -->
+                        </div>
+                        <div class="flex"></div>
+                        <div>
+                            <a href="role.html">
+                                <button class="btn w-sm mb-1 btn-sm btn-rounded btn-primary custom-btn-primary">Back to
+                                    list</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content page-container" id="page-content">
+                    <div class="c-padding">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-header"><strong>Update existing Role</strong></div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="inputName" for="">Title</label>
+                                                        <input type="text" class="form-control" id=""
+                                                            aria-describedby="emailHelp"
+                                                            placeholder="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="inputRole">Permissions</label>
+                                                        <select class="js-example-basic-multiple select2"
+                                                            multiple="multiple" name="role" style="width: 100%">
+                                                            <option value="1" data-select2-id="select2-data-6-ijpa">dashboard</option>
+                                        
+                                        <option value="2" data-select2-id="select2-data-7-mhni">role_access</option>
+                                        
+                                        <option value="3" data-select2-id="select2-data-8-nvms">role_create</option>
+                                        
+                                        <option value="4" data-select2-id="select2-data-9-5620">role_edit</option>
+                                        
+                                        <option value="5" data-select2-id="select2-data-10-332m">role_show</option>
+                                        
+                                        <option value="6" data-select2-id="select2-data-11-hh8f">role_delete</option>
+                                        
+                                        <option value="7" data-select2-id="select2-data-12-i2qu">user_access</option>
+                                        
+                                        <option value="8" data-select2-id="select2-data-13-zd1f">user_create</option>
+                                        
+                                        <option value="9" data-select2-id="select2-data-14-4gcs">user_edit</option>
+                                        
+                                        <option value="10" data-select2-id="select2-data-15-8cig">user_show</option>
+                                        
+                                        <option value="11" data-select2-id="select2-data-16-7cnl">user_delete</option>
+                                        
+                                        <option value="12" data-select2-id="select2-data-17-t2g7">category_access</option>
+                                        
+                                        <option value="13" data-select2-id="select2-data-18-26km">category_create</option>
+                                        
+                                        <option value="14" data-select2-id="select2-data-19-crg4">category_edit</option>
+                                        
+                                        <option value="15" data-select2-id="select2-data-20-b43t">category_show</option>
+                                        
+                                        <option value="16" data-select2-id="select2-data-21-4vyb">category_delete</option>
+                                        
+                                        <option value="17" data-select2-id="select2-data-22-a5wx">subcategory_access</option>
+                                        
+                                        <option value="18" data-select2-id="select2-data-23-lbln">subcategory_create</option>
+                                        
+                                        <option value="19" data-select2-id="select2-data-24-gvfj">subcategory_edit</option>
+                                        
+                                        <option value="20" data-select2-id="select2-data-25-frf1">subcategory_show</option>
+                                        
+                                        <option value="21" data-select2-id="select2-data-26-bm25">subcategory_delete</option>
+                                        
+                                        <option value="38" data-select2-id="select2-data-27-kdpk">earning_access</option>
+                                        
+                                        <option value="39" data-select2-id="select2-data-28-pjgv">earning_show</option>
+                                        
+                                        <option value="40" data-select2-id="select2-data-29-ubl4">earning_settle</option>
+                                        
+                                        <option value="41" data-select2-id="select2-data-30-s0om">notification_access</option>
+                                        
+                                        <option value="42" data-select2-id="select2-data-31-2k0z">notification_edit</option>
+                                        
+                                        <option value="43" data-select2-id="select2-data-32-b4ri">custom_notification_access</option>
+                                        
+                                        <option value="44" data-select2-id="select2-data-33-r5in">report_access</option>
+                                        
+                                        <option value="45" data-select2-id="select2-data-34-bg7d">setting_access</option>
+                                        
+                                        <option value="46" data-select2-id="select2-data-35-q10k">privacy_access</option>
+                                        
+                                        <option value="47" data-select2-id="select2-data-36-wpmk">privacy_edit</option>
+                                        
+                                        <option value="48" data-select2-id="select2-data-37-454j">faq_access</option>
+                                        
+                                        <option value="49" data-select2-id="select2-data-38-fcde">faq_create</option>
+                                        
+                                        <option value="50" data-select2-id="select2-data-39-9tph">faq_edit</option>
+                                        
+                                        <option value="51" data-select2-id="select2-data-40-s3d9">faq_show</option>
+                                        
+                                        <option value="52" data-select2-id="select2-data-41-nc5u">faq_delete</option>
+                                        
+                                        <option value="53" data-select2-id="select2-data-42-ykzc">lang_access</option>
+                                        
+                                        <option value="54" data-select2-id="select2-data-43-xnib">lang_create</option>
+                                        
+                                        <option value="55" data-select2-id="select2-data-44-0cfi">lang_edit</option>
+                                        
+                                        <option value="56" data-select2-id="select2-data-45-e3er">lang_show</option>
+                                        
+                                        <option value="57" data-select2-id="select2-data-46-lq6v">lang_delete</option>
+                                        
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col-md-12 text-right">
+                                                    <button type="button"
+                                                        class="btn btn-rounded custom-btn-primary mt-5 text-white">Update Role</button>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main END-->
+        </div>
+        <!-- Content END-->
+        <!-- Footer START-->
+        <!-- <div id="footer" class="page-footer hide">
+            <div class="d-flex p-3"><span class="text-sm text-muted flex">&copy; Copyright. flatfull.com</span>
+                <div class="text-sm text-muted">Version 1.1.2</div>
+            </div>
+        </div> -->
+        <!-- Footer END-->
+    </div>
+    <!-- SCRIPT STARTS HERE -->
+    <script src="./assets/js/site.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2();
+        });
+
+        // ALLOW NUMBERS ONLY
+        function onlyNumberKey(evt) {
+
+            // Only ASCII charactar in that range allowed 
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+                return false;
+            return true;
+        }
+    </script>
+</body>
+
+</html>
