@@ -334,3 +334,7 @@ vertical-align: top!important;
     background-color: #e95466;
     color: #fff;
 }
+.card-pad{
+    padding-left: 0px;
+    padding-right: 0px;
+}
