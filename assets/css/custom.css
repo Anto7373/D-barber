@@ -330,3 +330,7 @@ vertical-align: top!important;
  .radio input[type="radio"]:checked ~ span:after{
     transform: translate(-50%,-50%) scale(1);
  }
+ .indigo {
+    background-color: #e95466;
+    color: #fff;
+}
