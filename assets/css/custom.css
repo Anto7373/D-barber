@@ -266,7 +266,11 @@ img.branch-img {
     padding: 10px 6px;
 }
 .agf{
-padding: 6px;
+padding: 6px 10px 0px 14px;
+
+}
+.agd{
+      padding:6px 10px 0px 40px;
 }
 .border-line{
     border-top: 1px solid #9E9E9E;

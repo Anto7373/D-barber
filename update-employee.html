@@ -1,0 +1,286 @@
+h<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <meta name="description" content="Responsive, Bootstrap, BS4">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><!-- style -->
+    <link rel="stylesheet" href="./assets/css/site.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body class="layout-row">
+    <!-- Aside START-->
+    <div id="aside" class="page-sidenav no-shrink bg-light nav-dropdown fade" aria-hidden="true">
+        <div class="sidenav h-100 modal-dialog bg-light">
+            <!-- sidenav top -->
+            <div class="navbar">
+                <a href="index.html" class="navbar-brand">
+                    <img src="./assets/img/custom/logo.png" alt="...">
+                    <span class="hidden-folded d-inline l-s-n-1x logo-text-color">D - Barber</span>
+                </a>
+            </div><!-- Flex nav content -->
+            <div class="flex scrollable hover">
+                <div class="nav-active-text-primary" data-nav>
+                    <ul class="nav">
+                        <li class="nav-header hidden-folded"><span class="text-muted">Navigation</span></li>
+                        <li>
+                            <a href="dashboard.html" class=""><span class="nav-icon"><i data-feather="home"></i></span>
+                                <span class="nav-text">Dashboard</span>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="role.html" class=""><span class="nav-icon"><i data-feather="grid"></i></span>
+                                <span class="nav-text">Role</span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="user.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">Users</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="category.html" class=""><span class="nav-icon"><i data-feather="calendar"></i></span>
+                                <span class="nav-text">Categories</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="service.html" class=""><span class="nav-icon"><i data-feather="calendar"></i></span>
+                                <span class="nav-text">Services</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="branch.html" class=""><span class="nav-icon"><i
+                                        data-feather="message-circle"></i></span>
+                                <span class="nav-text">Branches</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="employee.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">Employees</span>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="offer.html" class=""><span class="nav-icon"><i data-feather="box"></i></span>
+                                <span class="nav-text">Offers</span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="customer.html" class=""><span class="nav-icon"><i data-feather="users"></i></span>
+                                <span class="nav-text">Customers</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="booking.html" class=""><span class="nav-icon"><i data-feather="mail"></i></span>
+                                <span class="nav-text">Bookings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="report.html" class=""><span class="nav-icon"><i data-feather="file"></i></span>
+                                <span class="nav-text">Report</span>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="notification.html" class=""><span class="nav-icon"><i data-feather="mail"></i></span>
+                                <span class="nav-text">Notification</span>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="settings.html" class=""><span class="nav-icon"><i data-feather="disc"></i></span>
+                                <span class="nav-text">Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" class=""><span class="nav-icon"><i data-feather="lock"></i></span>
+                                <span class="nav-text">Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aside END-->
+    <div id="main" class="layout-column flex">
+        <!-- Header START-->
+        <!-- MOBILE MENU STARTS HERE -->
+        <div id="header" class="page-header header-bg-custom">
+            <div class="navbar navbar-expand-lg">
+                <!-- brand -->
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <img src="./assets/img/custom/logo.png" alt="...">
+                    <span class="hidden-folded d-inline l-s-n-1x d-lg-none logo-text-color">D - Barber</span>
+                </a>
+                <!-- / brand -->
+                <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarToggler">
+                    <h3 class="custom-page-title">D-BARBER</h3>
+                </div>
+                <ul class="nav navbar-menu order-1 order-lg-2">
+                    <li class="nav-item dropdown">
+                        <a href="#" data-toggle="dropdown" class="nav-link d-flex align-items-center px-2 text-color">
+                            <span class="mx-2 d-none l-h-1x d-lg-block text-right text-white">
+                                <small class="text-fade d-block mb-1 text-white">Hello, Welcome</small>
+                                Admin admin</span>
+                            <span class="avatar w-24" style="margin: -2px"><img src="./assets/img/a0.jpg"
+                                    alt="..."></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right w mt-3 animate fadeIn">
+                            <a class="dropdown-item" href="page.profile.html"><span>Profile</span> </a>
+                            <a class="dropdown-item" href="signin.1.html">Sign out</a>
+                        </div>
+                    </li>
+                    <!-- Navarbar toggle btn -->
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link px-1" data-toggle="modal" data-target="#aside">
+                            <i data-feather="menu"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- MOBILE MENU ENDS HERE -->
+        <!-- Footer END-->
+        <!-- Content START-->
+        <div id="content" class="flex">
+            <!-- Main START-->
+            <div class="container">
+                <div class="page-hero page-container" id="page-hero">
+                    <div class="c-padding d-flex">
+                        <div class="page-title">
+                            <h2 class="text-md text-highlight">Edit Employee</h2>
+                        </div>
+                        <div class="flex"></div>
+                        <div>
+                            <a href="employee.html">
+                                <button class="btn w-sm mb-1 btn-sm btn-rounded btn-primary custom-btn-primary">Back to
+                                    list</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content page-container" id="page-content">
+                    <div class="c-padding">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-header"><strong>Update existing employee</strong></div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="inputName">Name</label>
+                                                        <input type="text" class="form-control" id="inputName" placeholder="Please enter name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="inputEmail">Email</label>
+                                                        <input type="Email" class="form-control" id="inputEmail" placeholder="sample@gmail.com">
+                                                    </div> 
+                                                </div>
+                                                <div class="col-md-6">
+                                                     <div class="form-group">
+                                                        <label for="inputAddress">Address</label>
+                                                        <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor">
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="inputPassword">Password</label>
+                                                        <input type="Password" class="form-control" id="inputPassword" placeholder="Please enter password">
+                                                    </div> 
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label class="text-muted" for="">Description</label>
+                                                        <textarea id="event-desc" class="form-control"
+                                                            rows="6"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                  <div class="form-group">
+                                                        <label for="inputName">Experience</label>
+                                                        <input type="text" class="form-control" id="inputName" placeholder="Please enter name">
+                                                    </div>  
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label class="text-muted">Services</label>
+                                                        <select class="js-example-basic-multiple select2"
+                                                            multiple="multiple" name="state" style="width: 100%">
+                                                            <option value="">Spa</option>
+                                                            <option value="">Salon</option>
+                                                            <option value="">Massage</option>
+                                                            
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group row">
+                                                        <label class="col-sm-12 text-muted">Image:</label>
+                                                        <div class="col-sm-12">
+                                                            <div class="custom-file">
+                                                                <input type="file" class="custom-file-input"
+                                                                    id="customFile">
+                                                                <label class="custom-file-label" for="customFile">Choose
+                                                                    file</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="c-toggle-btn">
+                                                        <span class="toggle-title text-muted">Status:</span>
+                                                        <label class="md-switch">
+                                                            <input type="checkbox">
+                                                            <i class="indigo"></i>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 text-right">
+                                                    <button type="button"
+                                                        class="btn btn-rounded custom-btn-primary mt-5 text-white">Update Employee</button>
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main END-->
+        </div>
+        <!-- Content END-->
+        <!-- Footer START-->
+        <!-- <div id="footer" class="page-footer hide">
+            <div class="d-flex p-3"><span class="text-sm text-muted flex">&copy; Copyright. flatfull.com</span>
+                <div class="text-sm text-muted">Version 1.1.2</div>
+            </div>
+        </div> -->
+        <!-- Footer END-->
+    </div>
+    <!-- SCRIPT STARTS HERE -->
+    <script src="./assets/js/site.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2').select2();
+        });
+
+        // ALLOW NUMBERS ONLY
+        function onlyNumberKey(evt) {
+
+            // Only ASCII charactar in that range allowed 
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+                return false;
+            return true;
+        }
+    </script>
+</body>
+
+</html>
