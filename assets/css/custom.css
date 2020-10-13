@@ -338,3 +338,9 @@ vertical-align: top!important;
     padding-left: 0px;
     padding-right: 0px;
 }
+.card-body a{
+    color: #000000d9;
+}
+.card-body a :hover{
+     color: #000000d9;
+}   
